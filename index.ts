@@ -8,6 +8,8 @@ const {port} = require('./config');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+import * as pilotController from "./controllers/pilotController";
+
 app.route('./pilots')
 .get()
 .post()
