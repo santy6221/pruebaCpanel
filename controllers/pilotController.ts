@@ -16,3 +16,19 @@ export async function update(req: Request, res: Response){
 export async function del(req: Request, res: Response){
 
 }
+
+export async function seeByPodium(req: Request, res: Response){
+    
+}
+
+export async function see3Best(req: Request, res: Response){
+    
+}
+
+export async function updateNick(req: Request, res: Response){
+    
+}
+
+export async function seeByPoints(req: Request, res: Response){
+    
+}
