@@ -1,9 +1,7 @@
-import { ModelI } from "../interfaces/modelI";
 import { Model } from "./Model";
+import { ModelI } from "../interfaces/modelI";
 
-
-export default class Pilot extends Model implements ModelI{
-    
+export default class sponsor extends Model implements ModelI{
     create(): Promise<any> {
         throw new Error("Method not implemented.");
     }

@@ -1,11 +1,11 @@
 import { Request, Response } from "express"
 import pilotServices from "../services/pilotServices";
 
-export async function getPilots(req: Request, res: Response){
+export async function getAllPilots(req: Request, res: Response){
 
 }
 
-export async function CreatePilots(req: Request, res: Response){
+export async function CreatePilot(req: Request, res: Response){
 
 }
 
