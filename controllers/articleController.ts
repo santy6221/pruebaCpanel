@@ -1,7 +1,7 @@
 import { Request, Response } from "express"
 import articleServices from "../services/articleServices";
 
-export async function getAllArticle(req: Request, res: Response){
+export async function getAllArticles(req: Request, res: Response){
 
 }
 
