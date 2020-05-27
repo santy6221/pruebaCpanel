@@ -1,4 +1,4 @@
-import Pilot from "../models/pilot";
+import Pilot from "../models/Pilot";
 
 
 module pilotServices{

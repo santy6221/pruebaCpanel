@@ -3,6 +3,10 @@ import sponsorServices from "../services/sponsorServices";
 
 export async function getAllSponsors(req: Request, res: Response){
 
+    res.status(200).json({
+        "pruebaSponsor": "Pepsi"
+    })
+
 }
 
 export async function CreateSponsor(req: Request, res: Response){

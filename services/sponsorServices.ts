@@ -1,4 +1,4 @@
-import Sponsor from "../models/sponsor";
+import Sponsor from "../models/Sponsor";
 
 
 module sponsorServices{

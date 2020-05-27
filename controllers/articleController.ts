@@ -2,7 +2,9 @@ import { Request, Response } from "express"
 import articleServices from "../services/articleServices";
 
 export async function getAllArticles(req: Request, res: Response){
-
+    res.status(200).json({
+        "Articulo": "Funciona"
+    })
 }
 
 export async function CreateArticle(req: Request, res: Response){

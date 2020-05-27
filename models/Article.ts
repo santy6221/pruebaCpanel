@@ -1,5 +1,5 @@
 import { Model } from "./Model";
-import { ModelI } from "../interfaces/modelI";
+import { ModelI } from "../interfaces/ModelI";
 
 export default class Article extends Model implements ModelI{
     create(): Promise<any> {

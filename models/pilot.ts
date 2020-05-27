@@ -1,4 +1,4 @@
-import { ModelI } from "../interfaces/modelI";
+import { ModelI } from "../interfaces/ModelI";
 import { Model } from "./Model";
 
 
